@@ -1,0 +1,40 @@
+.nav{
+    width: 100%;
+    height: 50px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.nav .img {
+  background: url("../assets/IMAGE.png");
+    width: 160px;
+    height: 40px;
+    object-fit: contain;
+    border: transparent;
+}
+.cartBox{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.cartBox button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #0075FF;
+    border: transparent;
+    color: white;
+    font-size: 15px;
+    transition: .3s all ease;
+
+}
+.cartBox button:hover{
+    background-color: white;
+    border: 1px solid #0075FF;
+    color: #0075FF;
+}
