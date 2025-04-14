@@ -44,6 +44,33 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="our">
+        <ul>
+          <h1>Our Services</h1>
+          <li>Explore services</li>
+        </ul>
+        <div className="ourItem">
+          <div className="item">
+            <div className="img">
+
+            </div>
+            <h2>House cleaning</h2>
+            <p>Lorem ipsum dolor sit amet <br /> consecte tur adipiscing elit <br /> semper dalaracc lacus vel facilisis volutpat est.</p>
+          </div>
+          <div className="item">
+            <div className="img">
+
+            </div>
+            <h2>House cleaning</h2>
+            <p>Lorem ipsum dolor sit amet <br /> consecte tur adipiscing elit <br />semper dalaracc lacus vel facilisis volutpat est.</p>
+          </div>
+          <div className="item">
+            <div className="img"></div>
+            <h2>House cleaning</h2>
+            <p>Lorem ipsum dolor sit amet <br /> consecte tur adipiscing elit <br /> semper dalaracc lacus vel facilisis volutpat est.</p>
+          </div>
+        </div>
+      </div>
     </>
   )
 }
